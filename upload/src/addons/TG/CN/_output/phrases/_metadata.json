@@ -1,0 +1,38 @@
+{
+    "tgcn_clone_child_node.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "71ad8b58975f6fbbeba230f1b8a63bc8"
+    },
+    "tgcn_clone_moder_node.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "e4d7dbe07b0200d2fd4e90e7fde72e2d"
+    },
+    "tgcn_clone_node.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d09f3266b24c80273bb1a38d2adb21dc"
+    },
+    "tgcn_clone_permission_node.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "5bbc22507d42cb0f5d35ceceb0748a3e"
+    },
+    "tgcn_clone_thread_node.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "54c649bf377cc41ff4f7c40878cc9be6"
+    },
+    "tgcn_node_new_title.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "452a8b111cdc28005a8fbeb786a0122b"
+    }
+}

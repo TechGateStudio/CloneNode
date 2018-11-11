@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="tgcn_clone_child_node" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Clone child node]]></phrase>
+  <phrase title="tgcn_clone_node" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Clone Node]]></phrase>
+  <phrase title="tgcn_node_new_title" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[New node title]]></phrase>
+</phrases>

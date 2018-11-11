@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="tgcn_clone" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[<xf:title>{{ phrase('tgcn_clone_node') }}: {$node.title}</xf:title>
+
+<xf:form class="block" action="{{ link('nodes/clone', $node) }}">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow name="title" value="{$node.title}" 
+						   label="{{ phrase('tgcn_node_new_title') }}"
+						   maxlength="{{ max_length($node, 'title') }}" />
+			
+			<xf:selectrow name="parent_node_id" value="{$node.parent_node_id}"
+				label="{{ phrase('parent_node') }}">
+
+				<xf:option value="0">{{ phrase('(none)') }}</xf:option>
+
+				<xf:foreach loop="$nodeTree.getFlattened(0)" value="$treeEntry">
+					<xf:option value="{$treeEntry.record.node_id}">{{ repeat('--', $treeEntry.depth) }} {$treeEntry.record.title}</xf:option>
+				</xf:foreach>
+			</xf:selectrow>
+			
+			<xf:checkboxrow>
+				<xf:option name="display_in_list" selected="$node.display_in_list"
+					label="{{ phrase('display_in_node_list') }}"
+					hint="{{ phrase('if_unselected_users_will_not_see_this_node_in_list') }}" />
+			</xf:checkboxrow>
+			
+			<hr class="formRowSep" />
+			
+			<xf:checkboxrow label="{{ phrase('options') }}">
+				<xf:option name="child_clone">{{ phrase('tgcn_clone_child_node') }}</xf:option>
+			</xf:checkboxrow>
+			
+			<xf:submitrow sticky="true" icon="copy" />
+		</div>
+	</div>
+</xf:form>]]></template>
+</templates>

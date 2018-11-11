@@ -1,0 +1,9 @@
+{
+    "template": "node_list",
+    "description": "Clone button.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:action\n\t\t\t\t\t\t\t\tclass=\"{{ {$customPermissions.{$node.node_id}} ? 'dataList-cell--highlighted' : '' }}\"\n\t\t\t\t\t\t\t\thref=\"{{ link('nodes/permissions', $node) }}\">\n\t\t\t\t\t\t\t\t{{ phrase('permissions') }}\n\t\t\t\t\t\t\t</xf:action>",
+    "replace": "<xf:action href=\"{{ link('nodes/clone', $node) }}\">\n\t{{ phrase('tgcn_clone_node') }}\n</xf:action>\n$0"
+}

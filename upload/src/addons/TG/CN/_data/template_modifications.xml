@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="node_list" modification_key="clone_node_list_button" description="Clone button." execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:action
+								class="{{ {$customPermissions.{$node.node_id}} ? 'dataList-cell--highlighted' : '' }}"
+								href="{{ link('nodes/permissions', $node) }}">
+								{{ phrase('permissions') }}
+							</xf:action>]]></find>
+    <replace><![CDATA[<xf:action href="{{ link('nodes/clone', $node) }}">
+	{{ phrase('tgcn_clone_node') }}
+</xf:action>
+$0]]></replace>
+  </modification>
+</template_modifications>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="&quot;{value}&quot;{symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="TG/CN" export_version="2">
+  <phrase title="tgcn_clone_child_node" addon_id="TG/CN" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Клонировать дочерние узлы]]></phrase>
+  <phrase title="tgcn_clone_node" addon_id="TG/CN" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Клонировать узел]]></phrase>
+  <phrase title="tgcn_node_new_title" addon_id="TG/CN" version_id="1000010" version_string="1.0.0 Alpha"><![CDATA[Новое имя узла]]></phrase>
+</language>

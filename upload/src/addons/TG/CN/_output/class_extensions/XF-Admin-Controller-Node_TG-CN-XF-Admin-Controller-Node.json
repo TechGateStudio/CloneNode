@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Admin\\Controller\\Node",
+    "to_class": "TG\\CN\\XF\\Admin\\Controller\\Node",
+    "execute_order": 10,
+    "active": true
+}
